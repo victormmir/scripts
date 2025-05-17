@@ -1,0 +1,5 @@
+                                           
+0 12 * * * /usr/bin/pacman -Syu --noconfirm
+20 12 * * * yay -Syu --noconfirm --noredownload
+0 13 * * 2 /home/victor/scripts/limpa_cache.sh
+10 13 * * 2 /home/victor/scripts/limpa_yay.sh
